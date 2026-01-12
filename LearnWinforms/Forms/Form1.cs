@@ -53,8 +53,11 @@ public partial class Form1 : Form
 
                 if (result == DialogResult.Yes)
                 {
-                    Application.Restart();
-                    Environment.Exit(0);
+                    BeginInvoke(new Action(() =>
+                    {
+                        Application.Restart();
+                        Environment.Exit(0);
+                    }));
                 }
                 break;
             default:

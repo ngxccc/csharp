@@ -14,7 +14,7 @@ public partial class LoginForm : Form
 
     private void BtnLogin_Click(object? sender, EventArgs e)
     {
-        if (txtUsername?.Text == "Admin")
+        if (txtUsername?.Content == "Admin")
         {
             MessageBox.Show("Đăng nhập thành công!");
 
