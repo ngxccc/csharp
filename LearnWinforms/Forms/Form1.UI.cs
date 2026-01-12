@@ -32,7 +32,8 @@ public partial class Form1
             ("Products",  IconChar.Tags),
             ("Customers", IconChar.UserFriends),
             ("Marketing", IconChar.Bullhorn),
-            ("Settings",  IconChar.Cogs)
+            ("Settings",  IconChar.Cogs),
+            ("Logout",  IconChar.ArrowRightFromBracket)
         };
 
         foreach (var item in menuItems.Reverse())
@@ -63,7 +64,7 @@ public partial class Form1
 
         Controls.Add(panelMenu);
         panelMenu.Controls.Add(panelLogo);
-        AddSaveButton(panelMenu);
+        AddSaveButton(panelLogo);
     }
 
 

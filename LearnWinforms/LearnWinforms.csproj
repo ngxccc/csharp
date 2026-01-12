@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="CuoreUI.Winforms" Version="2025.12.14.1" />
     <PackageReference Include="FontAwesome.Sharp" Version="6.6.0" />
     <PackageReference Include="ReaLTaiizor" Version="3.8.1.4" />
   </ItemGroup>

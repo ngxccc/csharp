@@ -48,6 +48,15 @@ public partial class Form1 : Form
             case "btnSettings":
                 // Mở form Settings
                 break;
+            case "btnLogout":
+                DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn đăng xuất?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+                if (result == DialogResult.Yes)
+                {
+                    Application.Restart();
+                    Environment.Exit(0);
+                }
+                break;
             default:
                 break;
         }

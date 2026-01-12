@@ -18,10 +18,8 @@ public partial class LoginForm : Form
         {
             MessageBox.Show("Đăng nhập thành công!");
 
-            // Mở Dashboard
-            Form1 dashboard = new();
-            dashboard.Show();
-            Hide();
+            DialogResult = DialogResult.OK;
+            Close();
         }
         else
         {
