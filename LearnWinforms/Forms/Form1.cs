@@ -1,6 +1,6 @@
 using FontAwesome.Sharp;
 
-namespace LearnWinforms;
+namespace LearnWinforms.Forms;
 
 public partial class Form1 : Form
 {

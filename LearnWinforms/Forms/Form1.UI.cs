@@ -2,7 +2,7 @@ using FontAwesome.Sharp;
 using ReaLTaiizor.Controls;
 using Panel = ReaLTaiizor.Controls.Panel;
 
-namespace LearnWinforms;
+namespace LearnWinforms.Forms;
 
 public partial class Form1
 {

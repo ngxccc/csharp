@@ -1,7 +1,7 @@
 using ReaLTaiizor.Controls;
 using Panel = ReaLTaiizor.Controls.Panel;
 
-namespace LearnWinforms;
+namespace LearnWinforms.Forms;
 
 public partial class LoginForm
 {

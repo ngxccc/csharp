@@ -1,3 +1,5 @@
+using LearnWinforms.Forms;
+
 namespace LearnWinforms;
 
 static class Program

@@ -1,4 +1,4 @@
-namespace LearnWinforms;
+namespace LearnWinforms.Forms;
 
 public partial class LoginForm : Form
 {
